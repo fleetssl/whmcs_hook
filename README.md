@@ -10,6 +10,7 @@ Note that your cPanel server should have a valid certificate on port 2087, other
 * Any version of PHP 5+ or 7 is fine
 * Let's Encrypt for cPanel 0.7.0 or higher
 * cPanel servers with valid SSL certificate on port 2087.
+* WHM server must not have 2FA enabled for your root user (but it probably doesn't if you are using WHMCS)
 
 ## Installation
 Download `le4cp_whmcs_hook.php` to your WHMCS installation under `includes/hooks`, and chmod it to 0644.
