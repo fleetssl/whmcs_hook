@@ -40,7 +40,7 @@ function le4cp_make_request($hostname, $access_hash, $action, $arguments) {
 */
 function le4cp_autossl_async($hostname, $access_hash, $username) {
 	return le4cp_make_request($hostname, $access_hash, 
-		"run_autossl_for_user_async", array("username" => $username));
+		"run_autossl_for_user_async", array("username" => $username, "retry" => "true"));
 }
 
 function le4cp_hook_aftermodulecreate($vars) {
