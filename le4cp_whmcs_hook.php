@@ -66,8 +66,8 @@ if(defined("WHMCS")) {
 }
 
 /* Test function */
-if(php_sapi_name() === "cli") {
+/*if(php_sapi_name() === "cli") {
 	print_r(le4cp_autossl_async($argv[1], $argv[2], $argv[3]));
-}
+}*/
 
 ?>

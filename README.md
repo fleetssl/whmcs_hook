@@ -20,7 +20,7 @@ The hook will run on all of your cPanel servers, but you may wish to customize t
 The result of the hook execution will be written to the WHMCS activity log.
 
 ## Testing
-You may optionally test the hook file:
+You may optionally test the hook file (you will first need to uncomment the function at the bottom):
 
 ```
 php le4cp_whmcs_hook.php <hostname of cPanel server> <root access hash with spaces and newlines removed> <username>
